@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E7E9B718EB0C9D00641A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7E9B618EB0C9D00641A30 /* Foundation.framework */; };
+		70E7E9B918EB0C9D00641A30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7E9B818EB0C9D00641A30 /* CoreGraphics.framework */; };
+		70E7E9BB18EB0C9D00641A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7E9BA18EB0C9D00641A30 /* UIKit.framework */; };
+		70E7E9C118EB0C9D00641A30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70E7E9BF18EB0C9D00641A30 /* InfoPlist.strings */; };
+		70E7E9C318EB0C9D00641A30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E7E9C218EB0C9D00641A30 /* main.m */; };
+		70E7E9C718EB0C9D00641A30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E7E9C618EB0C9D00641A30 /* AppDelegate.m */; };
+		70E7E9CA18EB0C9D00641A30 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E7E9C818EB0C9D00641A30 /* Main_iPhone.storyboard */; };
+		70E7E9CD18EB0C9D00641A30 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E7E9CB18EB0C9D00641A30 /* Main_iPad.storyboard */; };
+		70E7E9D018EB0C9D00641A30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E7E9CF18EB0C9D00641A30 /* ViewController.m */; };
+		70E7E9D218EB0C9D00641A30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E7E9D118EB0C9D00641A30 /* Images.xcassets */; };
+		70E7E9D918EB0C9D00641A30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7E9D818EB0C9D00641A30 /* XCTest.framework */; };
+		70E7E9DA18EB0C9D00641A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7E9B618EB0C9D00641A30 /* Foundation.framework */; };
+		70E7E9DB18EB0C9D00641A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7E9BA18EB0C9D00641A30 /* UIKit.framework */; };
+		70E7E9E318EB0C9D00641A30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70E7E9E118EB0C9D00641A30 /* InfoPlist.strings */; };
+		70E7E9E518EB0C9D00641A30 /* PhotoShiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E7E9E418EB0C9D00641A30 /* PhotoShiftTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70E7E9DC18EB0C9D00641A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70E7E9AB18EB0C9D00641A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70E7E9B218EB0C9D00641A30;
+			remoteInfo = PhotoShift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70E7E9B318EB0C9D00641A30 /* PhotoShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E7E9B618EB0C9D00641A30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70E7E9B818EB0C9D00641A30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70E7E9BA18EB0C9D00641A30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		70E7E9BE18EB0C9D00641A30 /* PhotoShift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoShift-Info.plist"; sourceTree = "<group>"; };
+		70E7E9C018EB0C9D00641A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70E7E9C218EB0C9D00641A30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70E7E9C418EB0C9D00641A30 /* PhotoShift-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoShift-Prefix.pch"; sourceTree = "<group>"; };
+		70E7E9C518EB0C9D00641A30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70E7E9C618EB0C9D00641A30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70E7E9C918EB0C9D00641A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		70E7E9CC18EB0C9D00641A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		70E7E9CE18EB0C9D00641A30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70E7E9CF18EB0C9D00641A30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70E7E9D118EB0C9D00641A30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70E7E9D718EB0C9D00641A30 /* PhotoShiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoShiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E7E9D818EB0C9D00641A30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		70E7E9E018EB0C9D00641A30 /* PhotoShiftTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoShiftTests-Info.plist"; sourceTree = "<group>"; };
+		70E7E9E218EB0C9D00641A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70E7E9E418EB0C9D00641A30 /* PhotoShiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoShiftTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E7E9B018EB0C9D00641A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7E9B918EB0C9D00641A30 /* CoreGraphics.framework in Frameworks */,
+				70E7E9BB18EB0C9D00641A30 /* UIKit.framework in Frameworks */,
+				70E7E9B718EB0C9D00641A30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E7E9D418EB0C9D00641A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7E9D918EB0C9D00641A30 /* XCTest.framework in Frameworks */,
+				70E7E9DB18EB0C9D00641A30 /* UIKit.framework in Frameworks */,
+				70E7E9DA18EB0C9D00641A30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70E7E9AA18EB0C9D00641A30 = {
+			isa = PBXGroup;
+			children = (
+				70E7E9BC18EB0C9D00641A30 /* PhotoShift */,
+				70E7E9DE18EB0C9D00641A30 /* PhotoShiftTests */,
+				70E7E9B518EB0C9D00641A30 /* Frameworks */,
+				70E7E9B418EB0C9D00641A30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70E7E9B418EB0C9D00641A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E7E9B318EB0C9D00641A30 /* PhotoShift.app */,
+				70E7E9D718EB0C9D00641A30 /* PhotoShiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E7E9B518EB0C9D00641A30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70E7E9B618EB0C9D00641A30 /* Foundation.framework */,
+				70E7E9B818EB0C9D00641A30 /* CoreGraphics.framework */,
+				70E7E9BA18EB0C9D00641A30 /* UIKit.framework */,
+				70E7E9D818EB0C9D00641A30 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70E7E9BC18EB0C9D00641A30 /* PhotoShift */ = {
+			isa = PBXGroup;
+			children = (
+				70E7E9C518EB0C9D00641A30 /* AppDelegate.h */,
+				70E7E9C618EB0C9D00641A30 /* AppDelegate.m */,
+				70E7E9C818EB0C9D00641A30 /* Main_iPhone.storyboard */,
+				70E7E9CB18EB0C9D00641A30 /* Main_iPad.storyboard */,
+				70E7E9CE18EB0C9D00641A30 /* ViewController.h */,
+				70E7E9CF18EB0C9D00641A30 /* ViewController.m */,
+				70E7E9D118EB0C9D00641A30 /* Images.xcassets */,
+				70E7E9BD18EB0C9D00641A30 /* Supporting Files */,
+			);
+			path = PhotoShift;
+			sourceTree = "<group>";
+		};
+		70E7E9BD18EB0C9D00641A30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70E7E9BE18EB0C9D00641A30 /* PhotoShift-Info.plist */,
+				70E7E9BF18EB0C9D00641A30 /* InfoPlist.strings */,
+				70E7E9C218EB0C9D00641A30 /* main.m */,
+				70E7E9C418EB0C9D00641A30 /* PhotoShift-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70E7E9DE18EB0C9D00641A30 /* PhotoShiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				70E7E9E418EB0C9D00641A30 /* PhotoShiftTests.m */,
+				70E7E9DF18EB0C9D00641A30 /* Supporting Files */,
+			);
+			path = PhotoShiftTests;
+			sourceTree = "<group>";
+		};
+		70E7E9DF18EB0C9D00641A30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70E7E9E018EB0C9D00641A30 /* PhotoShiftTests-Info.plist */,
+				70E7E9E118EB0C9D00641A30 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70E7E9B218EB0C9D00641A30 /* PhotoShift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E7E9E818EB0C9D00641A30 /* Build configuration list for PBXNativeTarget "PhotoShift" */;
+			buildPhases = (
+				70E7E9AF18EB0C9D00641A30 /* Sources */,
+				70E7E9B018EB0C9D00641A30 /* Frameworks */,
+				70E7E9B118EB0C9D00641A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoShift;
+			productName = PhotoShift;
+			productReference = 70E7E9B318EB0C9D00641A30 /* PhotoShift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70E7E9D618EB0C9D00641A30 /* PhotoShiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E7E9EB18EB0C9D00641A30 /* Build configuration list for PBXNativeTarget "PhotoShiftTests" */;
+			buildPhases = (
+				70E7E9D318EB0C9D00641A30 /* Sources */,
+				70E7E9D418EB0C9D00641A30 /* Frameworks */,
+				70E7E9D518EB0C9D00641A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70E7E9DD18EB0C9D00641A30 /* PBXTargetDependency */,
+			);
+			name = PhotoShiftTests;
+			productName = PhotoShiftTests;
+			productReference = 70E7E9D718EB0C9D00641A30 /* PhotoShiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E7E9AB18EB0C9D00641A30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					70E7E9D618EB0C9D00641A30 = {
+						TestTargetID = 70E7E9B218EB0C9D00641A30;
+					};
+				};
+			};
+			buildConfigurationList = 70E7E9AE18EB0C9D00641A30 /* Build configuration list for PBXProject "PhotoShift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70E7E9AA18EB0C9D00641A30;
+			productRefGroup = 70E7E9B418EB0C9D00641A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E7E9B218EB0C9D00641A30 /* PhotoShift */,
+				70E7E9D618EB0C9D00641A30 /* PhotoShiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70E7E9B118EB0C9D00641A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7E9CD18EB0C9D00641A30 /* Main_iPad.storyboard in Resources */,
+				70E7E9D218EB0C9D00641A30 /* Images.xcassets in Resources */,
+				70E7E9CA18EB0C9D00641A30 /* Main_iPhone.storyboard in Resources */,
+				70E7E9C118EB0C9D00641A30 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E7E9D518EB0C9D00641A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7E9E318EB0C9D00641A30 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E7E9AF18EB0C9D00641A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7E9D018EB0C9D00641A30 /* ViewController.m in Sources */,
+				70E7E9C718EB0C9D00641A30 /* AppDelegate.m in Sources */,
+				70E7E9C318EB0C9D00641A30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E7E9D318EB0C9D00641A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7E9E518EB0C9D00641A30 /* PhotoShiftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70E7E9DD18EB0C9D00641A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70E7E9B218EB0C9D00641A30 /* PhotoShift */;
+			targetProxy = 70E7E9DC18EB0C9D00641A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70E7E9BF18EB0C9D00641A30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E7E9C018EB0C9D00641A30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		70E7E9C818EB0C9D00641A30 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E7E9C918EB0C9D00641A30 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		70E7E9CB18EB0C9D00641A30 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E7E9CC18EB0C9D00641A30 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		70E7E9E118EB0C9D00641A30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E7E9E218EB0C9D00641A30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70E7E9E618EB0C9D00641A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70E7E9E718EB0C9D00641A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70E7E9E918EB0C9D00641A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoShift/PhotoShift-Prefix.pch";
+				INFOPLIST_FILE = "PhotoShift/PhotoShift-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70E7E9EA18EB0C9D00641A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoShift/PhotoShift-Prefix.pch";
+				INFOPLIST_FILE = "PhotoShift/PhotoShift-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		70E7E9EC18EB0C9D00641A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoShift.app/PhotoShift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoShift/PhotoShift-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhotoShiftTests/PhotoShiftTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		70E7E9ED18EB0C9D00641A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoShift.app/PhotoShift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoShift/PhotoShift-Prefix.pch";
+				INFOPLIST_FILE = "PhotoShiftTests/PhotoShiftTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E7E9AE18EB0C9D00641A30 /* Build configuration list for PBXProject "PhotoShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E7E9E618EB0C9D00641A30 /* Debug */,
+				70E7E9E718EB0C9D00641A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E7E9E818EB0C9D00641A30 /* Build configuration list for PBXNativeTarget "PhotoShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E7E9E918EB0C9D00641A30 /* Debug */,
+				70E7E9EA18EB0C9D00641A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70E7E9EB18EB0C9D00641A30 /* Build configuration list for PBXNativeTarget "PhotoShiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E7E9EC18EB0C9D00641A30 /* Debug */,
+				70E7E9ED18EB0C9D00641A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E7E9AB18EB0C9D00641A30 /* Project object */;
+}
