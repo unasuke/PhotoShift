@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70AF1A7918EC2B4E00DA3DCF /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AF1A7818EC2B4E00DA3DCF /* TitleViewController.m */; };
 		70E7E9B718EB0C9D00641A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7E9B618EB0C9D00641A30 /* Foundation.framework */; };
 		70E7E9B918EB0C9D00641A30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7E9B818EB0C9D00641A30 /* CoreGraphics.framework */; };
 		70E7E9BB18EB0C9D00641A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7E9BA18EB0C9D00641A30 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		70AF1A7718EC2B4E00DA3DCF /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		70AF1A7818EC2B4E00DA3DCF /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
 		70E7E9B318EB0C9D00641A30 /* PhotoShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E7E9B618EB0C9D00641A30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70E7E9B818EB0C9D00641A30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				70E7E9C518EB0C9D00641A30 /* AppDelegate.h */,
 				70E7E9C618EB0C9D00641A30 /* AppDelegate.m */,
 				70E7E9C818EB0C9D00641A30 /* Main_iPhone.storyboard */,
+				70AF1A7718EC2B4E00DA3DCF /* TitleViewController.h */,
+				70AF1A7818EC2B4E00DA3DCF /* TitleViewController.m */,
 				70E7E9CB18EB0C9D00641A30 /* Main_iPad.storyboard */,
 				70E7E9CE18EB0C9D00641A30 /* ViewController.h */,
 				70E7E9CF18EB0C9D00641A30 /* ViewController.m */,
@@ -253,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70E7E9D018EB0C9D00641A30 /* ViewController.m in Sources */,
+				70AF1A7918EC2B4E00DA3DCF /* TitleViewController.m in Sources */,
 				70E7E9C718EB0C9D00641A30 /* AppDelegate.m in Sources */,
 				70E7E9C318EB0C9D00641A30 /* main.m in Sources */,
 			);
@@ -469,6 +475,7 @@
 				70E7E9EA18EB0C9D00641A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70E7E9EB18EB0C9D00641A30 /* Build configuration list for PBXNativeTarget "PhotoShiftTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +484,7 @@
 				70E7E9ED18EB0C9D00641A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
