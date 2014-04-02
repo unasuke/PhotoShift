@@ -46,12 +46,25 @@
 }
 */
 
+-(void)notImplementedAleat{
+    //未実装を警告するアラートを表示
+    UIAlertView *aleat = [[UIAlertView alloc]initWithTitle:@"警告"
+                                                   message:@"まだ実装されていません"
+                                                  delegate:self
+                                         cancelButtonTitle:nil
+                                         otherButtonTitles:@"OK", nil];
+    [aleat show];
+}
+
 - (IBAction)cameraButtonTaped:(id)sender {
+    [self notImplementedAleat];
 }
 
 - (IBAction)camerarollButtonTaped:(id)sender {
+    [self notImplementedAleat];
 }
 
 - (IBAction)challangeButtonTaped:(id)sender {
+    [self notImplementedAleat];
 }
 @end

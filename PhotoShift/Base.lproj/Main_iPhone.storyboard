@@ -30,7 +30,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="cameraButtonTaped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="T62-9g-mMe"/>
+                                    <action selector="cameraButtonTaped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Cay-rX-EHq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgM-NY-Iji">
@@ -40,7 +40,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="camerarollButtonTaped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="J2L-eG-urJ"/>
+                                    <action selector="camerarollButtonTaped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qdP-w4-Knd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfG-v9-zsh">
@@ -50,16 +50,12 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="challangeButtonTaped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="P2P-pn-dve"/>
+                                    <action selector="challangeButtonTaped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DBw-kN-Edt"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="cameraButton" destination="NnR-CQ-phD" id="5qd-GF-XMy"/>
-                        <outlet property="camerarollButtonTaped" destination="dgM-NY-Iji" id="ZNm-4g-bF4"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
