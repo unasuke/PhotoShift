@@ -56,12 +56,33 @@
     [aleat show];
 }
 
+-(void)aleatMessage:(NSString *)string title:(NSString *)title{
+    //メッセージを指定してアラートを出す
+    UIAlertView *aleat = [[UIAlertView alloc]initWithTitle:title
+                                                   message:string
+                                                  delegate:self
+                                         cancelButtonTitle:nil
+                                         otherButtonTitles:@"OK", nil];
+    [aleat show];
+}
+
 - (IBAction)cameraButtonTaped:(id)sender {
     [self notImplementedAleat];
 }
 
 - (IBAction)camerarollButtonTaped:(id)sender {
-    [self notImplementedAleat];
+    NSLog(@"camerarollButton taped");
+    
+    //フォトライブラリにアクセスできるかどうかのチェック
+    if ([UIImagePickerController isSourceTypeAvailable:
+         UIImagePickerControllerSourceTypePhotoLibrary]) {
+        
+    }
+    else {
+        [self aleatMessage:@"フォトライブラリにアクセスできません" title:@"エラー"];
+        
+    }
+    
 }
 
 - (IBAction)challangeButtonTaped:(id)sender {
