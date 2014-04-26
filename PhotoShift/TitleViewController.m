@@ -77,6 +77,20 @@
     if ([UIImagePickerController isSourceTypeAvailable:
          UIImagePickerControllerSourceTypePhotoLibrary]) {
         
+        //PickerControllerの初期化
+        UIImagePickerController *camerarollPickerUI = [[UIImagePickerController alloc] init];
+        
+        //選択するメディアのタイプを選択
+        camerarollPickerUI.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+        
+        //delegateを自分自身に(移譲先が自分自身となることで選択された画像を取得する)
+        //.hに追記が必要
+        camerarollPickerUI.delegate = self;
+        
+        //画面の呼び出し
+        [self presentViewController:camerarollPickerUI animated:YES completion:NULL];
+        
+        
     }
     else {
         [self aleatMessage:@"フォトライブラリにアクセスできません" title:@"エラー"];

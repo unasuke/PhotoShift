@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TitleViewController : UIViewController
+@interface TitleViewController : UIViewController <UINavigationControllerDelegate , UIImagePickerControllerDelegate >
 
 
 //各Buttonが押された時呼ばれる関数の定義
